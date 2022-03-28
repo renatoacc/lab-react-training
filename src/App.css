@@ -36,3 +36,27 @@
     transform: rotate(360deg);
   }
 }
+
+.IdCard{
+  display: flex;
+  flex-direction: row;
+  border: 2px solid black;
+}
+.IdCard > img{
+  width: 20%;
+  height: 25%;
+}
+.IdCardInfo{
+  display: flex;
+  flex-direction: column;
+}
+.IdCardInfo > ul{
+  list-style-type: none;
+}
+.IdCardInfo > div{
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  flex-direction: row;
+  margin-left: 5%;
+}
