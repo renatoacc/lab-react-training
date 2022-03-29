@@ -4,19 +4,19 @@ export default function IdCard(props) {
       <img src={props.picture} alt={props.firstName} />
       <div className="IdCardInfo">
         <div>
-          <h4>Frist name:</h4> <p>{props.firstName}</p>
+          <h4>Frist name:{props.firstName}</h4>
         </div>
         <div>
-          <h4>Last name:</h4> <p>{props.lastName}</p>
+          <h4>Last name:{props.lastName}</h4>
         </div>
         <div>
-          <h4>Height:</h4> <p>{props.height}</p>
+          <h4>Height:{props.height}</h4>
         </div>
         <div>
-          <h4>Gender:</h4> <p>{props.gender}</p>
+          <h4>Gender:{props.gender}</h4>
         </div>
         <div>
-          <h4>Birth:</h4> <p>{props.birth.toLocaleDateString('en-US')}</p>
+          <h4>Birth:{props.birth.toLocaleDateString('en-US')}</h4>
         </div>
       </div>
     </div>
